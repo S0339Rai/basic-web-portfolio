@@ -110,3 +110,14 @@
         width: 80%;
         margin: 40px auto;
     }
+    
+    .heading {
+        color: #F5F0E6;
+        font-size: 70px;
+        font-family: Georgia;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px;
+        width: 70%;
+        margin: 0 auto
+    }
