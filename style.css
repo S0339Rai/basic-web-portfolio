@@ -1,80 +1,97 @@
-body {
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #1B3100, #8D3F7D);
-}
-
-.nav-link {
-    padding-top: 20px;
-    color: #FFF2C5;
-    background-color: #891652;
-    border-radius: 20px;
-    text-align: center;
-    padding: 20px;
-    margin: 30px;
-    font-weight: bold;
-    font-family: 'Courier New';
-    width: 120px;
-    height: 64px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-link:hover {
-    background-color: #F5F0E6;
-    color: #891652;
-}
-
-.Home h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
-
-.Home {
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Consolas';
-    padding-top: 180px;
-    color: #FFF2C5;
-}
-
-.about {
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.about-photo {
-    padding-left: 20px;
-    flex-shrink: 0;
-}
-
-.about-photo img {
-    width: 400px;
-    height: 700px;
-    border-radius: 50px;
-    object-fit: cover;
-}
-
-.content {
-    flex: 3;
-    padding-left: 10px;
-    color: #FFF2C5;
-    font-family: 'Constantia';
-}
-
-.content h1 {
-    font-size: 45px;
-}
-
-.sub {
-    letter-spacing: 3px;
-    font-size: 18px;
-}
-
-.info {
-    margin-top: 25px;
-    line-height: 1.6;
-    font-size: 18px;
-}
+    body {
+        min-height: 100vh;
+        background: linear-gradient(to bottom, #1B3100, #8D3F7D);
+    }
+    
+    .nav-link {
+        padding-top: 20px;
+        color: #FFF2C5;
+        background-color: #891652;
+        border-radius: 20px;
+        text-align: center;
+        padding: 20px;
+        margin: 30px;
+        font-weight: bold;
+        font-family: 'Courier New';
+        width: 120px;
+        height: 64px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .nav-link:hover {
+        background-color: #F5F0E6;
+        color: #891652;
+    }
+    
+    .Home h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .Home {
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Consolas';
+        padding-top: 180px;
+        color: #FFF2C5;
+    }
+    
+    .about {
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .about-photo {
+        padding-left: 20px;
+        flex-shrink: 0;
+    }
+    
+    .about-photo img {
+        width: 400px;
+        height: 700px;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+    
+    .content {
+        flex: 3;
+        padding-left: 10px;
+        color: #FFF2C5;
+        font-family: 'Constantia';
+    }
+    
+    .content h1 {
+        font-size: 45px;
+    }
+    
+    .sub {
+        letter-spacing: 3px;
+        font-size: 18px;
+    }
+    
+    .info {
+        margin-top: 25px;
+        line-height: 1.6;
+        font-size: 18px;
+    }
+    
+    .carousel-item img {
+        width: 70% !important;
+        height: 350px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+    
+    .caption1 {
+        background-color: #f5f0e7;
+        color: #40352f;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        width: 70%;
+        margin: 0 auto
+    }
