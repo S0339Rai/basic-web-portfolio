@@ -90,8 +90,20 @@
         background-color: #f5f0e7;
         color: #40352f;
         text-align: center;
-        padding: 20px;
+        padding: 20px 120px 20px 120px;
         border-radius: 20px;
         width: 70%;
         margin: 0 auto
+    }
+    
+    #carouselExampleIndicators {
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    #carouselExampleIndicators .carousel-item img,
+    #carouselExampleIndicators .activity-caption {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
