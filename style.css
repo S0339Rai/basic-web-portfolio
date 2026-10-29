@@ -49,6 +49,15 @@
                 color: #FFF2C5;
             }
             
+            hr.thicky {
+                height: 3px;
+                align-items: center;
+                background-color: #FAF0E6;
+                border: none;
+                margin: 16px 16px 16px 16px;
+                border-radius: 20px;
+            }
+            
             .about-page {
                 width: 100%;
                 max-width: 1500px;
@@ -132,7 +141,7 @@
                 background: #FFF2C5;
                 box-sizing: border-box;
                 color: #1B3100;
-                padding: 18px 20px;
+                padding: 18px;
                 text-align: center;
                 line-height: 1.8;
                 overflow-wrap: anywhere;
@@ -251,7 +260,10 @@
             }
             
             hr.thick {
-                height: 50px;
-                background-color: #891652;
+                height: 30px;
+                align-items: center;
+                background-color: #FAF0E6;
                 border: none;
+                margin: 16px 16px 16px 16px;
+                border-radius: 20px;
             }
