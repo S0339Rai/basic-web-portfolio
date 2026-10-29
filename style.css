@@ -79,14 +79,39 @@
         font-size: 18px;
     }
     
-    .carousel-item img {
+    .activity-caption {
+        background-color: #f5f0e7;
+        color: #40352f;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        width: 70%;
+        margin: 0 auto
+    }
+    
+    .activity-caption h5 {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .activity-caption p {
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+    
+    #carouselExampleIndicator1 {
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    #carouselExampleIndicator1 .carousel-item img {
         width: 70% !important;
         height: 350px;
         object-fit: contain;
         margin: 0 auto;
     }
     
-    .caption1 {
+    #carouselExampleIndicator1 .activity-caption {
         background-color: #f5f0e7;
         color: #40352f;
         text-align: center;
@@ -96,34 +121,14 @@
         margin: 0 auto
     }
     
-    .caption2 {
-        background-color: #f5f0e7;
-        color: #40352f;
-        text-align: center;
-        padding: 20px;
-        border-radius: 20px;
-        width: 70%;
-        margin: 0 auto
+    #carouselExampleIndicator1 .activity-caption h5 {
+        font-weight: bold;
+        margin-bottom: 10px;
     }
     
-    .caption3 {
-        background-color: #f5f0e7;
-        color: #40352f;
-        text-align: center;
-        padding: 20px;
-        border-radius: 20px;
-        width: 70%;
-        margin: 0 auto
-    }
-    
-    .caption4 {
-        background-color: #f5f0e7;
-        color: #40352f;
-        text-align: center;
-        padding: 20px;
-        border-radius: 20px;
-        width: 70%;
-        margin: 0 auto
+    #carouselExampleIndicator1 .activity-caption p {
+        line-height: 1.6;
+        margin-bottom: 0;
     }
     
     #carouselExampleIndicators {
