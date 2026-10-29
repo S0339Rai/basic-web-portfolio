@@ -106,6 +106,26 @@
         margin: 0 auto
     }
     
+    .caption3 {
+        background-color: #f5f0e7;
+        color: #40352f;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        width: 70%;
+        margin: 0 auto
+    }
+    
+    .caption4 {
+        background-color: #f5f0e7;
+        color: #40352f;
+        text-align: center;
+        padding: 20px;
+        border-radius: 20px;
+        width: 70%;
+        margin: 0 auto
+    }
+    
     #carouselExampleIndicators {
         width: 80%;
         margin: 40px auto;
