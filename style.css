@@ -79,6 +79,13 @@
         font-size: 18px;
     }
     
+    .carousel-item img {
+        width: 70% !important;
+        height: 350px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+    
     .activity-caption {
         background-color: #f5f0e7;
         color: #40352f;
@@ -102,13 +109,6 @@
     #carouselExampleIndicator1 {
         width: 80%;
         margin: 40px auto;
-    }
-    
-    #carouselExampleIndicator1 .carousel-item img {
-        width: 70% !important;
-        height: 350px;
-        object-fit: contain;
-        margin: 0 auto;
     }
     
     #carouselExampleIndicator1 .activity-caption {
