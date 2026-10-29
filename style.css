@@ -3,6 +3,7 @@
                 background: linear-gradient(to bottom, #1B3100, #8D3F7D);
                 opacity: 0;
                 animation: fadeIn 0.5s ease-in forwards;
+                overflow-x: clip;
             }
             
             @keyframes fadeIn {
@@ -49,13 +50,17 @@
             }
             
             .about-page {
-                color: #FFF2C5;
-                min-height: 85vh;
+                width: 100%;
+                max-width: 1500px;
+                min-height: 80vh;
+                margin: 0 auto;
+                padding: 40px;
+                box-sizing: border-box;
                 display: grid;
-                grid-template-columns: 280px 1fr 1.1fr;
+                grid-template-columns: 280px minmax(0, 1fr) minmax(0, 1fr);
                 align-items: center;
                 gap: 35px;
-                padding: 50px 5%;
+                color: #FFF2C5;
             }
             
             .proflie-photo {
@@ -78,7 +83,7 @@
             }
             
             .about-info h1 {
-                font-size: clamp(38px, 4vm, 60px);
+                font-size: clamp(38px, 4vw, 60px);
                 margin: 10px 0 20px;
                 color: #f5f0e7;
             }
@@ -122,11 +127,15 @@
             
             .sticky-note {
                 align-self: center;
+                width: fit-content;
+                max-width: 100%;
                 background: #FFF2C5;
+                box-sizing: border-box;
                 color: #1B3100;
-                padding: 22px 30px;
+                padding: 18px 20px;
                 text-align: center;
                 line-height: 1.8;
+                overflow-wrap: anywhere;
                 transform: rotate(-3deg);
                 box-shadow: 0 5px 15px #40352f;
             }
@@ -138,6 +147,7 @@
                 padding: 22px 30px;
                 text-align: center;
                 line-height: 1.8;
+                box-shadow: 0 5px 15px #40352f;
             }
             
             .bio-card p {
