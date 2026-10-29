@@ -121,3 +121,9 @@
         width: 70%;
         margin: 0 auto
     }
+    
+    hr.thick {
+        height: 50px;
+        background-color: #891652;
+        border: none;
+    }
