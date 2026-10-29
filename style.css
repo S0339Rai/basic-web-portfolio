@@ -67,6 +67,7 @@
                 box-sizing: border-box;
                 display: grid;
                 grid-template-columns: 280px minmax(0, 1fr) minmax(0, 1fr);
+                grid-template-columns: 280px minmax(0, 1.2fr) minmax(250px, 0.8fr);
                 align-items: center;
                 gap: 35px;
                 color: #FFF2C5;
@@ -129,9 +130,14 @@
             }
             
             .about-extra {
+                grid-column: 3;
+                min-width: 0;
+                width: 100%;
                 display: flex;
                 flex-direction: column;
-                gap: 25px;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
             }
             
             .sticky-note {
@@ -260,7 +266,7 @@
             }
             
             hr.thick {
-                height: 30px;
+                height: 18px;
                 align-items: center;
                 background-color: #FAF0E6;
                 border: none;
