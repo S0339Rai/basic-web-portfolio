@@ -55,7 +55,7 @@
                 align-items: center;
                 background-color: #FAF0E6;
                 border: none;
-                margin: 16px 16px 16px 16px;
+                margin: 16px 16px 16px 20px;
                 border-radius: 20px;
             }
             
@@ -247,7 +247,17 @@
                 margin-bottom: 0;
             }
             
+            #carouselExampleIndicators {
+                width: 80%;
+                margin: 40px auto;
+            }
+            
             #carouselExampleIndicator1 {
+                width: 80%;
+                margin: 40px auto;
+            }
+            
+            #carouselExampleIndicator2 {
                 width: 80%;
                 margin: 40px auto;
             }
@@ -270,11 +280,6 @@
             #carouselExampleIndicator1 .activity-caption p {
                 line-height: 1.6;
                 margin-bottom: 0;
-            }
-            
-            #carouselExampleIndicators {
-                width: 80%;
-                margin: 40px auto;
             }
             
             .heading {
