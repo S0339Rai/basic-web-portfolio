@@ -1,6 +1,6 @@
             body {
                 min-height: 100vh;
-                background: linear-gradient(to bottom, #1B3100, #8D3F7D);
+                background: linear-gradient(to bottom, #16404D, #8D3F7D);
                 opacity: 0;
                 animation: fadeIn 0.5s ease-in forwards;
                 overflow-x: clip;
@@ -18,13 +18,13 @@
             .nav-link {
                 padding-top: 20px;
                 color: #FFF2C5;
-                background-color: #891652;
+                background-color: #E85D75;
                 border-radius: 20px;
                 text-align: center;
                 padding: 20px;
                 margin: 30px;
                 font-weight: bold;
-                font-family: 'Courier New';
+                font-family: 'Candara';
                 width: 120px;
                 height: 64px;
                 display: flex;
@@ -39,6 +39,7 @@
             .Home h1 {
                 font-size: 50px;
                 font-weight: bold;
+                font-family: Candara;
             }
             
             .Home {
@@ -98,8 +99,9 @@
             
             .about-info h1 {
                 font-size: clamp(38px, 4vw, 60px);
-                margin: 10px 18px 20px;
+                margin: 10px 0 20px;
                 color: #f5f0e7;
+                font-size: 60px;
             }
             
             .about-info h2 {
@@ -260,7 +262,7 @@
             
             .heading {
                 color: #F5F0E6;
-                font-size: 70px;
+                font-size: 60px;
                 font-family: Georgia;
                 font-weight: bold;
                 text-align: center;
@@ -284,10 +286,11 @@
             }
             
             .contact-page h1 {
+                font-size: 60px;
                 color: #F5F0E6;
                 font-weight: bold;
                 margin-bottom: 15px;
-                font-family: 'Courier New';
+                font-family: 'Candara';
             }
             
             .contact-container {
