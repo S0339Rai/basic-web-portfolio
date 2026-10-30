@@ -67,7 +67,7 @@
                 box-sizing: border-box;
                 display: grid;
                 grid-template-columns: 280px minmax(0, 1fr) minmax(0, 1fr);
-                grid-template-columns: 280px minmax(0, 1.2fr) minmax(250px, 0.8fr);
+                grid-template-columns: 280px minmax(0, 1.2 fr) minmax(250px, 0.8fr);
                 align-items: center;
                 gap: 35px;
                 color: #FFF2C5;
