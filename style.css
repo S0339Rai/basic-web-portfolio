@@ -273,3 +273,39 @@
                 margin: 16px 16px 16px 16px;
                 border-radius: 20px;
             }
+            
+            .contact-page {
+                text-align: center;
+                padding: 60px 20px;
+            }
+            
+            .contact-page h1 {
+                color: #F5F0E6;
+                font-weight: bold;
+                margin-bottom: 15px;
+                font-family: 'Courier New';
+            }
+            
+            .contact-container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 25px;
+            }
+            
+            .contact-card {
+                background-color: #8D3F7D;
+                width: 230px;
+                padding: 30px 20px;
+                border-radius: 0 4px 12px;
+                transition: 0.3s;
+            }
+            
+            .contact-card:hover {
+                transform: translateY(-8px);
+            }
+            
+            .bi-instagram {
+                font-size: 60px;
+                color: #F3E5BE
+            }
