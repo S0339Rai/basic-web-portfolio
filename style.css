@@ -252,17 +252,17 @@
                 margin: 40px auto;
             }
             
-            #carouselExampleIndicator1 {
+            #carouselExampleIndicators1 {
                 width: 80%;
                 margin: 40px auto;
             }
             
-            #carouselExampleIndicator2 {
+            #carouselExampleIndicators2 {
                 width: 80%;
                 margin: 40px auto;
             }
             
-            #carouselExampleIndicator1 .activity-caption {
+            #carouselExampleIndicators1 .activity-caption {
                 background-color: #f5f0e7;
                 color: #40352f;
                 text-align: center;
@@ -272,12 +272,12 @@
                 margin: 0 auto
             }
             
-            #carouselExampleIndicator1 .activity-caption h5 {
+            #carouselExampleIndicators1 .activity-caption h5 {
                 font-weight: bold;
                 margin-bottom: 10px;
             }
             
-            #carouselExampleIndicator1 .activity-caption p {
+            #carouselExampleIndicators1 .activity-caption p {
                 line-height: 1.6;
                 margin-bottom: 0;
             }
