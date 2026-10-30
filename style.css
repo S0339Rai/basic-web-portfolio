@@ -59,6 +59,15 @@
                 border-radius: 20px;
             }
             
+            hr.thickyy {
+                height: 3px;
+                align-items: center;
+                background-color: #FAF0E6;
+                border: none;
+                margin: 180px 16px 16px 20px;
+                border-radius: 20px;
+            }
+            
             .about-page {
                 width: 100%;
                 max-width: 1500px;
