@@ -86,6 +86,10 @@
                 border: 2px solid #f5f0e7;
             }
             
+            .about-info {
+                margin: 80px;
+            }
+            
             .about-info .eyebrow {
                 letter-spacing: 3px;
                 font-style: italic;
@@ -94,7 +98,7 @@
             
             .about-info h1 {
                 font-size: clamp(38px, 4vw, 60px);
-                margin: 10px 0 20px;
+                margin: 10px 18px 20px;
                 color: #f5f0e7;
             }
             
@@ -294,8 +298,9 @@
             }
             
             .contact-card {
-                background-color: #8D3F7D;
+                background-color: #EF5A6F;
                 width: 230px;
+                margin: 80px;
                 padding: 30px 20px;
                 border-radius: 0 4px 12px;
                 transition: 0.3s;
@@ -305,7 +310,28 @@
                 transform: translateY(-8px);
             }
             
-            .bi-instagram {
+            .button {
+                color: #F5F0E6;
+                padding: 5px 20px;
+                border-radius: 10px;
+            }
+            
+            .button:hover {
+                color: black;
+                background-color: rgb(253, 169, 253);
+                border: 10px;
+            }
+            
+            .contact-card i {
                 font-size: 60px;
+                color: #F3E5BE
+            }
+            
+            .contact-card p {
+                font-size: 14px;
+                color: #FBE8D3
+            }
+            
+            .contact-card h3 {
                 color: #F3E5BE
             }
